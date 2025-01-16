@@ -39,6 +39,7 @@ section {
     text-align: center;
     height: 100vh;
     margin-bottom: 20px; /* Ajoute un espace entre les sections */
+    padding-top: 60px; /* Ajustez cette valeur selon la hauteur de votre menu */
 }
 
 #events {
@@ -60,15 +61,15 @@ section {
 .card-container {
     width: 100%; /* Prend toute la largeur disponible */
     display: flex;
-    flex-wrap: wrap;
-    overflow-x: auto;
+    flex-wrap: nowrap;
+    overflow-x: auto; /* Permet le défilement horizontal */
     padding: 20px 0;
     flex-grow: 1; /* Prend l'espace restant */
 }
 
 .card {
-    min-width: 200px;
-    margin: 0 10px;
+    min-width: 90vw; 
+       margin: 0 10px;
     padding: 20px;
     background-color: white;
     border: 1px solid #ccc;
